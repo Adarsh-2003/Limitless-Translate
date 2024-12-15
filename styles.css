@@ -139,23 +139,3 @@ footer a{
     display: none; 
 }
 
-
-  @media (max-width: 768px){
-
-    .visible-on-mobile{
-      display: flex;
-    }
-
-    .hide-on-mobile {
-      display: none;
-  }
-  }
-
-  @media (min-width: 769px) {
-    .hide-on-mobile {
-        display: flex;
-    }
-    .visible-on-mobile {
-        display: none;
-    }
-}
