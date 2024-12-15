@@ -9,7 +9,7 @@ I created a website which takes input of your texts and creates web-text page in
 
 I saw this problem faced by my mother when she receives whatsapp messages which are long and in other language and which cannot be entirely translated by google app.
 
-## *In-built browser based Translator*
+## *Limitless Translator*
 
 ![Picsart_24-12-15_20-27-34-543](https://github.com/user-attachments/assets/43dcdbfd-8d6f-4ec1-a2de-ac02ea49b4bf)
 
