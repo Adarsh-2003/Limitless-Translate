@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limitless Translate</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/fav-modified.png">
+  </head>
+  <body>
+    <!-- Main Form section -->
+    <div class="wrapper" id="wrapper">
+      <div class="container">
+        <h1>Translate without limits</h1>
+        <textarea
+          id="textInput"
+          placeholder="Enter your text here to redirect to new web-text page ..."
+          rows="10"
+        ></textarea>
+        <button onclick="validateAndGenerate()">Submit</button>
+      </div>
+      <footer>
+        <p>Made with ❤️ by <a href="https://gupta-adarsh.pages.dev/"> Adarsh Gupta</a></p>
+      </footer>
+    </div>
+
+  <!-- Guide button -->
+  <button class="guide-button" onclick="openPopup()">Guide</button>
+
+  <!-- Popup structure -->
+  <div class="popup-overlay" id="popup">
+    <button class="close-button" onclick="closePopup()"><h2>X</h2></button>
+    <div class="popup-content">
+      <img class="hide-on-mobile" src="./assets/translator-demo.png" alt="Guide Image">
+    </div>
+    <img class="visible-on-mobile" src="./assets/testi.jpg" alt="Guide Image">
+  </div>
+    <script src="script.js" charset="UTF-8"></script>
+  </body>
+</html>
